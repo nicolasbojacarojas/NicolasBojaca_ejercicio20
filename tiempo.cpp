@@ -13,7 +13,15 @@ int main()
 	float u;
 	float h;
 	float g;
-	
+	int N = 2.0/dx;
+	int n = T/dt;
+	for (int l = 0; l < n; l++)
+	{
+		for (int k = 0; k < N, k++)
+		{
+			
+		}
+	}
 	return 0;
 }
 float uf(float c, float x, float dx, int i)
